@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/containner.css">
+    <link rel="stylesheet" href="../css/input.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/fieldResponse.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+
+    <title>IMC</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title">IMC</h1>
+        <nav class="activity-menu">
+            <ul class="activity-list">
+                <li class="activity-item"><a href="/index.html">Home</a></li>
+                <li class="activity-item"><a href="/pages/aprovedStudent.html">Aluno Aprovado</a></li>
+                <li class="activity-item"><a href="/pages/media-studant.html">Média do aluno</a></li>
+                <li class="activity-item"><a href="/pages/averageSpeed.html">Velocidade média</a></li>
+                <li class="activity-item"><a href="/pages/finalPrice.html">Preço final</a></li>
+                <li class="activity-item"><a href="/pages/farenheit.html">Farenheit</a> </li>
+                <li class="activity-item"><a href="/pages/celsius.html">Celsius</a></li>
+                <li class="activity-item"><a href="/pages/gasolina.html">Gasolina</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class='containner'>
+        <section class='insert-values'>
+            <input type="number" class='input-format' id='imc-height' placeholder="Digite uma altura"/>
+            <input type="number" class="input-format" id="imc-weight" placeholder="Digite um peso"/>
+            <button type="button" class ='btn-info'id="btn-imc">IMC</button>
+        </section>
+        <div class='response' id='response-imc'>
+            
+        </div>
+        
+    </div>
+</body>
+
+</html>

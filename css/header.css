@@ -1,0 +1,51 @@
+.header{
+    width: 95vw;
+   
+    padding: 2rem;
+    margin: 20px;
+    border-radius: 2rem;
+
+    display: flex;
+    
+    align-items: center;
+    background: var( --color-background-dark);
+    color: var( --color-letters);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.header-title{
+    font-family:'Special Elite', monospace;
+    font-size: 2rem;
+    margin-right: 6rem;
+    color: var( --color-degrade-four);
+}
+.activity-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    list-style: none;
+}
+.activity-item{
+    justify-self: flex-end;
+    font-family:'Special Elite', monospace;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-right: 1px solid  var( --color-letters);
+    padding-right: 1rem;
+    opacity: 0.5;
+}
+.activity-item:last-child{
+    border: none;
+}
+.activity-item:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.activity-item a:active{
+    opacity: 1;
+    color: var( --color-special);
+}

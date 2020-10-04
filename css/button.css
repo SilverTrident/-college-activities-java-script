@@ -1,0 +1,23 @@
+.btn-info{
+    margin-top: 2rem;
+    width: 30rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family:'Special Elite', monospace;
+    color: blanchedalmond;
+    background: var( --color-background-dark);
+    border: none;
+    opacity: 0.5;
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+}
+.btn-info:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: var(--color-special);
+}
+.btn-info:active{
+    
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+}

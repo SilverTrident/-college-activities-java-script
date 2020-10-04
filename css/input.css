@@ -1,0 +1,14 @@
+.input-format{
+    width: 100%;
+  height: 6rem;
+  margin: 1rem;
+  border: none;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  color: var( --color-background-dark);
+  font-size: 1.8rem;
+  font-family:'Special Elite', monospace;
+  border-radius: 1.5rem;
+  background: var(--color-degrade-four);
+  box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.75);
+}

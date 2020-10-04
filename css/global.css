@@ -1,0 +1,61 @@
+:root{
+    --color-background-dark: #191919;
+    --color-letters: rgb(255,255,255,.75);
+    --color-degrade-one:  #1E1E24;
+    --color-degrade-two:#383C42;
+    --color-degrade-tree: #5D666B;
+    --color-degrade-four: #939E9E;
+    --color-special: #0b495f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none; 
+}
+::-webkit-scrollbar{
+    width: 1rem;   
+}
+::-webkit-scrollbar-track{
+    background: var(--color-background-dark);
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--color-degrade-four);
+    border-radius: 0.5rem;
+}
+textarea:focus, 
+input:focus, 
+select:focus, 
+button:focus{
+    
+    border: 0 none;
+    outline: 0;
+} 
+
+.containner{
+  margin-bottom: 4rem;
+}
+a{
+  color: var(--color-letters);
+}
+body{
+  width: 100vw;
+  height: 100vh;
+    background:linear-gradient(45deg, var(--color-degrade-one),var(--color-degrade-two), var(--color-degrade-four)); 
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+@keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+

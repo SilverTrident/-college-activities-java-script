@@ -1,0 +1,12 @@
+.response{
+    width: 90%;
+    height: 90%;
+    margin-left: 2rem;
+    margin-top: 4rem;
+   border: 6px solid  var(--color-degrade-four);
+   border-radius: 2rem;
+   padding: 4rem;
+   font-size: 4rem;
+   font-family:'Special Elite', monospace;
+   color: var(--color-degrade-four);
+}
