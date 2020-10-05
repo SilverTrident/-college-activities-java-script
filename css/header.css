@@ -16,7 +16,7 @@
 .header-title{
     font-family:'Special Elite', monospace;
     font-size: 1.5rem;
-    margin-right: 6rem;
+    margin-right: 2rem;
     color: var( --color-degrade-four);
 }
 .activity-list{
@@ -24,7 +24,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 2rem;
+    
     list-style: none;
 }
 .activity-item{
