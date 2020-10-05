@@ -13,9 +13,9 @@ function media() {
     if (calcMedia(media.mention1, media.mention2, media.mention3) <= 4) {
         media.finalMedia = "REPROVADO"
     } else if (calcMedia(media.mention1, media.mention2, media.mention3) > 4
-        && calcMedia(media.mention1, media.mention2, media.mention3) <= 6) {
+        && calcMedia(media.mention1, media.mention2, media.mention3) < 6) {
         media.finalMedia = "RECUPERAÇÃO FINAL"
-    } else if (calcMedia(media.mention1, media.mention2, media.mention3) > 6 &&
+    } else if (calcMedia(media.mention1, media.mention2, media.mention3) >= 6 &&
         calcMedia(media.mention1, media.mention2, media.mention3) <= 10
     ) {
         media.finalMedia = "APROVADO"
