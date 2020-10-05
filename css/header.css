@@ -1,7 +1,7 @@
 .header{
     width: 95vw;
    
-    padding: 2rem;
+    padding: 1rem;
     margin: 20px;
     border-radius: 2rem;
 
@@ -15,7 +15,7 @@
 }
 .header-title{
     font-family:'Special Elite', monospace;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-right: 6rem;
     color: var( --color-degrade-four);
 }
@@ -30,7 +30,7 @@
 .activity-item{
     justify-self: flex-end;
     font-family:'Special Elite', monospace;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-left: 1rem;
     text-decoration: none;
     text-transform: uppercase;
