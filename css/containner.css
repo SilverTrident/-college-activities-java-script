@@ -1,5 +1,6 @@
 .containner{
    display: flex;
+   flex-direction: column;
 }
 .insert-values{
     display: flex;
@@ -12,6 +13,7 @@
 }
 
 @media(min-width: 800px){
+    .containner{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;}
 }
