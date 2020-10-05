@@ -5,8 +5,16 @@
     margin-top: 4rem;
    border: 6px solid  var(--color-degrade-four);
    border-radius: 2rem;
-   padding: 4rem;
-   font-size: 4rem;
+   padding: 1rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   font-size: 1.5rem;
    font-family:'Special Elite', monospace;
    color: var(--color-degrade-four);
+}
+@media(min-width: 800px){
+    .response{
+        padding: 4rem;
+        font-size: 4rem;
+    }
 }
